@@ -1,0 +1,20 @@
+.tasks-list {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #1a171d;
+  list-style-type: none;
+  margin-left: 0px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 8px;
+}
+.tag-element {
+  padding: 10px;
+  background-color: #f3aa4e;
+  border-radius: 50px;
+}

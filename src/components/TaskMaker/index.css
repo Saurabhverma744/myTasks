@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+.sub-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  background-color: #131213;
+}
+.task-heading {
+  color: #f3aa4e;
+  font-weight: bold;
+  font-family: roboto;
+  padding: 20px;
+}
+
+.form {
+  width: 100%;
+  padding: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  outline: none;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.add-button {
+  font-weight: bold;
+  padding: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #f3aa4e;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+}
+.tags-container {
+  font-weight: bold;
+  background-color: #000000;
+  color: #ffffff;
+  width: 60%;
+  padding: 20px;
+}
+.ul-list {
+  display: flex;
+  width: 90%;
+  padding-left: 0px;
+}
+.new {
+  flex-direction: column;
+}
